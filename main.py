@@ -28,7 +28,7 @@ Your should:
 
 You have access to these tools:
 1. read_file: To read the content of a local file. This is the only way to access local files. 
-The only files you can directly access without tools are those in your virtual file system, which are private and accessible only to your.
+The only files you can directly access without tools are those in your virtual file system, which are private and accessible only to you.
 Files created by other agents or existing project code stored in local directories are not directly accessible. To access these files, you must use this tool. 
 2. read_folder: To retrieve all file names in a specified folder. 
 This is useful for verifying whether files have been successfully saved during training or testing processes.
@@ -55,7 +55,7 @@ If you identify any errors, clearly identify them and provide concrete, feasible
 
 You have access to these tools:
 1. read_file: To read the content of a local file. This is the only way to access local files. 
-The only files you can directly access without tools are those in your virtual file system, which are private and accessible only to your.
+The only files you can directly access without tools are those in your virtual file system, which are private and accessible only to you.
 Files created by other agents or existing project code stored in local directories are not directly accessible. To access these files, you must use this tool. 
 2. read_folder: To retrieve all file names in a specified folder. 
 This is useful for verifying whether files have been successfully saved during training or testing processes.
