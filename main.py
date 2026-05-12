@@ -70,7 +70,7 @@ Please ensure:
 Always conclude by calling **write_file** to output a report. If the report is too long, split it into several sub-reports and save them separately.
 The report file should not have any parent folder; that is, the file path should be directly y.md, not x/y.md."""
 
-USER_QUERY = """Achieve image style transfer using an an optoelectronic hybrid neural network. The incident RGB frequencies are 480 THz, 560 THz, and 640 THz. The filenames for the content image and the style image are "cont.png" and "style.png", respectively. The focal length is 50 micrometers. In addition, you should conduct a comprehensive research of relevant academic and technical information."""
+USER_QUERY = """Achieve image style transfer using an optoelectronic hybrid neural network. The incident RGB frequencies are 480 THz, 560 THz, and 640 THz. The filenames for the content image and the style image are "cont.png" and "style.png", respectively. The focal length is 50 micrometers. In addition, you should conduct a comprehensive research of relevant academic and technical information."""
 
 @tool
 def metasurface_optimize(request:str)->str:
