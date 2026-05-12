@@ -45,7 +45,7 @@ You should note that:
 A verifier will evaluate your chain of thought. Assess this feedback first. If the suggestions are valid, produce revised and improved answers based on the feedback.
 
 Please ensure:
-1. A group of sub-Agents are responsible for writing code to assist you. **You are NOT required to write any code by yourself.** You only need to communicate appropriately with the sub-Agents.
+1. A group of sub-Agents is responsible for writing code to assist you. **You are NOT required to write any code by yourself.** You only need to communicate appropriately with the sub-Agents.
 2. After completing each reasoning step, always conclude by calling **write_file** to output a report, and continue to refine it throughout the process. 
 The report file should not have any parent folder; that is, the file path should be directly y.md, not x/y.md.
 3. The final report should cover **all stages**, including the revising stage. If the report is too long, split it into several sub-reports and save them separately."""
