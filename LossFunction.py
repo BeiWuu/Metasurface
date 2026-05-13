@@ -20,8 +20,7 @@ Concatenate all generated images along the batch dimension and return a tensor o
 Please ensure:
 1. Preserve the style of the retrievable code as much as possible.
 2. The style_weight is **1e6**, content_weight is **1**, and optimize for 300 epochs.
-3. Save the code in a file named styleCode.py. The code file should not have any parent folder; that is, the file path should be directly styleCode.py, not x/styleCode.py.
-4. Do not include any specific symbols (e.g., ✓, →, ★) or emoji/emoticons."""
+3. Save the code in a file named styleCode.py. The code file should not have any parent folder; that is, the file path should be directly styleCode.py, not x/styleCode.py."""
 
 class FocalLoss(nn.Module):
     def __init__(self,alpha=0.5,gamma=2,logits=False,reduce=True):
