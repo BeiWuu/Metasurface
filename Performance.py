@@ -29,8 +29,7 @@ The SSIM value (a scalar).
 Please ensure:
 
 1. Define the file name of the code as SSIM.py.
-2. Define the function name as func_SSIM.
-3. Do not include any specific symbols (e.g., ✓, →, ★) or emoji/emoticons."""
+2. Define the function name as func_SSIM."""
 
 PSNR_QUERY = f"""Write a function that measures the similarity between two images using the PSNR (peak signal-to-noise ratio) metric.
 Inputs:
@@ -42,8 +41,7 @@ The PSNR value (a scalar with unit in dB).
 Please ensure:
 
 1. Define the file name of the code as PSNR.py.
-2. Define the function name as func_PSNR.
-3. Do not include any specific symbols (e.g., ✓, →, ★) or emoji/emoticons."""
+2. Define the function name as func_PSNR."""
 
 def read_file(file_name):
     file_name = Path(r"D:\work\MetaDesign\Metasurface") / file_name
