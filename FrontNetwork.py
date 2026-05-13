@@ -15,9 +15,7 @@ The output with dimension of **{output_dimension}**.
 Please ensure:
 1. Define the file name of the code as Encoder.py.
 2. Define the class name of the network as EncoderNet.
-3. Use a lightweight architecture.
-4. Do not add BatchNorm (batch normalization layers).
-5. Do not include any specific symbols (e.g., ✓, →, ★) or emoji/emoticons."""
+3. Use a lightweight architecture."""
 
 class FrontEnd(nn.Module):
     def __init__(self, task):
