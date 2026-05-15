@@ -20,7 +20,7 @@ class Visual(nn.Module):
             out = output[i]
             idx = torch.argmax(out)  # 展平后的索引
             x, y = torch.unravel_index(idx, out.shape)  # 转换为二维坐标
-            plt.imshow(out[x-10:x+11,y-10:y+11].detach().numpy(), cmap=LinearSegmentedColormap.from_list('custom_cmap', ['#000000', color[i]], N=100))
+            plt.imshow(out[x-40:x+41,y-40:y+41].detach().numpy(), cmap=LinearSegmentedColormap.from_list('custom_cmap', ['#000000', color[i]], N=100))
             plt.colorbar(fraction=0.046, pad=0.04)
             plt.axis('off')
             plt.savefig(folder_path + "/Focus/SavedModel/2D_"+str(i)+".png",dpi=500, bbox_inches='tight', pad_inches=0)
