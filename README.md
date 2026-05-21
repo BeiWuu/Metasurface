@@ -55,10 +55,14 @@ In the current implementation, DeepSeek is used as one of the base models for lo
 When changing the base model, please ensure that:
 
 the model supports sufficiently long context;
+
 the model can follow tool-use instructions reliably;
+
 the API interface is compatible with the agent framework;
+
 the required API keys are correctly configured in the .env file.
-Reproducibility
+
+## Reproducibility
 
 To reproduce or redesign a task, configure the required API keys, modify USER_QUERY in main.py, and run:
 
