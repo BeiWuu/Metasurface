@@ -21,7 +21,7 @@ def func(distance_min, distance_max):
     imageG = [Image.frombytes("F", size, file.channel(c, pt)) for c in "G"]
     imageB = [Image.frombytes("F", size, file.channel(c, pt)) for c in "B"]
     imageR = [Image.frombytes("F", size, file.channel(c, pt)) for c in "R"]
-    image = np.concatenate((imageG, imageB, imageR),0).transpose(1, 2, 0)
+    image = np.concatenate((imageR, imageG, imageB),0).transpose(1, 2, 0)
     # print('Image shape: ',image.shape)
     plt.imshow(image)
     plt.axis("off")
