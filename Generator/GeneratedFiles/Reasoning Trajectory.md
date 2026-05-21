@@ -2843,7 +2843,6 @@ Tool Calls:
     frequencies: [480, 560, 640]
 😊Optimizer agent. Step: 13 , consumes tokens: 20431 , running time: 1.6681952476501465
 ====================  Load pretrained model  ====================
-Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [7.947876e-05..1.1216931].
 ================================ Human Message =================================
 
 Write a function that calculates the content loss between input_img and content_img, and the style_loss between input_img and style_img.
