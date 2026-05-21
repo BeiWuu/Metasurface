@@ -23,6 +23,7 @@ SSIM_QUERY = f"""Write a function that measures the similarity between two image
 Inputs:
 1. An image with dimensions **[{kwargs["Meta_N"]},{kwargs["Meta_N"]},3]**.
 2. Another image with the same dimensions **[{kwargs["Meta_N"]},{kwargs["Meta_N"]},3]**.
+Both input images have been normalized to the range [0, 1]. Therefore, the SSIM calculation should use a dynamic range of 1.0 rather than 255.
 Output:
 The SSIM value (a scalar).
 
@@ -35,6 +36,7 @@ PSNR_QUERY = f"""Write a function that measures the similarity between two image
 Inputs:
 1. An image with dimensions **[{kwargs["Meta_N"]},{kwargs["Meta_N"]},3]**.
 2. Another image with the same dimensions **[{kwargs["Meta_N"]},{kwargs["Meta_N"]},3]**.
+Both input images have been normalized to the range [0, 1]. Therefore, the PSNR calculation should use a dynamic range of 1.0 rather than 255.
 Output:
 The PSNR value (a scalar with unit in dB).
 
