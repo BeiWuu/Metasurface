@@ -1,6 +1,6 @@
 ## Requirements
 
-This project is developed and tested with Python 3.12
+This project is developed and tested with Python 3.12.
 
 ## API key configuration
 
