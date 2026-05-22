@@ -69,3 +69,21 @@ To reproduce or redesign a task, configure the required API keys, modify USER_QU
 python main.py
 
 Because LLM-based agents may show stochastic behavior, repeated runs can produce different reasoning trajectories, generated code or optimization results. For the final quantitative performance values reported in the manuscript, please refer to the manuscript and the corresponding source data.
+
+## Memory management
+
+MetaDesigner maintains a persistent memory across runs. Information generated during previous executions may be stored and reused in subsequent tasks to improve long-horizon reasoning and workflow continuity.
+
+If you would like to start from a clean state and prevent the agent from being influenced by previous runs, you can clear the stored memory by running:
+
+python showMemory.py
+
+The script provides options for inspecting and deleting the stored memory.
+
+## Terminology
+
+In the manuscript, the agent responsible for generating custom tool code is referred to as the Programmer.
+
+In the released codebase, the same agent is named Coder.
+
+The two terms refer to the same component and are functionally equivalent.
