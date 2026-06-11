@@ -72,7 +72,7 @@ Because LLM-based agents may show stochastic behavior, repeated runs can produce
 
 ## Memory management
 
-MetaDesigner maintains a persistent memory across runs. Information generated during previous executions may be stored and reused in subsequent tasks to improve long-horizon reasoning and workflow continuity.
+MetaDesigner maintains a persistent memory across runs. Information generated during previous executions may be stored and reused in subsequent tasks.
 
 If you would like to start from a clean state and prevent the agent from being influenced by previous runs, you can clear the stored memory by running:
 
